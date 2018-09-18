@@ -1,0 +1,12 @@
+body { 
+    background-image: url("https://preview.redd.it/7vb4b5neqniz.jpg?width=960&crop=smart&s=4b74e43bf981220815b8da86cbd639be115985d1") ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+
+    margin: 0;
+    padding: 0;
+    font-family: exo, sans-serif;
+
+}
