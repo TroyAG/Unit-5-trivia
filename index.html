@@ -1,77 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script src="assets/javascript/game.js"></script>
+  <head>
+    <meta charset="utf-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
 
-</head>
-<body>
-    <h1>Video Game Trivia</Video></h1>
-    <p>What color is Pacman?</p>
-    <form action="">
-        <input type="radio" name="gender" value="male"> Blue
-        <input type="radio" name="gender" value="female"> Yellow
-        <input type="radio" name="gender" value="other"> Green
-        <input type="radio" name="gender" value="other"> Orange
-      </form>
-      <p>What year was Resident Evil 4 released?</p>
-      <form action="">
-        <input type="radio" name="gender" value="male"> 2004
-        <input type="radio" name="gender" value="female"> 2001
-        <input type="radio" name="gender" value="other"> 2006
-        <input type="radio" name="gender" value="other"> 2005
-      </form>
-<p> What is the name of the protagonist in God Of War?</p>
-<form action="">
-    <input type="radio" name="gender" value="male"> Atreus
-    <input type="radio" name="gender" value="female"> Kratos
-    <input type="radio" name="gender" value="other"> Ares
-    <input type="radio" name="gender" value="other"> Zues
-  </form>
+    <title>Trivia Game</title>
 
-<p>In Final Fantasy 10 the main Antagonists name is</p>
-<form action="">
-    <input type="radio" name="gender" value="male"> Sin
-    <input type="radio" name="gender" value="female"> Sans
-    <input type="radio" name="gender" value="other"> Yevon
-    <input type="radio" name="gender" value="other"> Tidus
-  </form>
-
-  <p>in Bioshock the drill weilding enemies are called</p>
-  <form action="">
-    <input type="radio" name="gender" value="male"> Big Boys
-    <input type="radio" name="gender" value="female"> Big Daddies
-    <input type="radio" name="gender" value="other"> Big Papa's
-    <input type="radio" name="gender" value="other"> Large Lads
-  </form>
-
-  <p>What color is Crash Bandicoot?</p>
-  <form action="">
-    <input type="radio" name="gender" value="male"> yellow
-    <input type="radio" name="gender" value="female"> red
-    <input type="radio" name="gender" value="other"> orange
-    <input type="radio" name="gender" value="other"> brown
-  </form>
-
-  <p>The PSX or PS1 was released what year?</p>
-  <form action="">
-    <input type="radio" name="gender" value="male"> 1992
-    <input type="radio" name="gender" value="female"> 1994
-    <input type="radio" name="gender" value="other"> 1999
-    <input type="radio" name="gender" value="other"> 1996
-  </form>
-<p>The main protagonist of ID Softwares DOOM is called?</p>
-<form action="">
-    <input type="radio" name="gender" value="male"> Space Marine
-    <input type="radio" name="gender" value="female"> Super soldier
-    <input type="radio" name="gender" value="other"> DoomGuy
-    <input type="radio" name="gender" value="other"> Demon Slayer
-  </form>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="./assets/css/style.css">
 
 
-</body>
+
+
+
+  </head>
+
+  <body>
+  
+    <audio controls loop>
+      <source src="./assets/audio/Ps1.mp3" type="audio/mp3"/>
+    </audio>
+   
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <div id="game">
+          <h2>Playstation trivia</h2>
+          <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+          <p id="question" class="lead"></p>
+        </div>
+        <div id="results">
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="choices" class="text-center">
+          <button id="start" class="btn btn-info btn-lg">Start Game</button>
+          <div id="options">
+            
+          </div>
+          
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- TRIVIA APP JS -->
+    <script src="./assets/javascript/game.js"></script>  
+
+
+  </body>
 </html>

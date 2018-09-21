@@ -1,5 +1,5 @@
 body { 
-    background-image: url("https://preview.redd.it/7vb4b5neqniz.jpg?width=960&crop=smart&s=4b74e43bf981220815b8da86cbd639be115985d1") ;
+    background-image: url("https://pre00.deviantart.net/134c/th/pre/f/2016/132/8/6/ps1_minimal_wallpaper_by_vegruz-da27ox5.png") ;
     background-position: center center;
     background-repeat:  no-repeat;
     background-attachment: fixed;
@@ -8,5 +8,31 @@ body {
     margin: 0;
     padding: 0;
     font-family: exo, sans-serif;
+
+}
+p {
+    margin-left: 35%;
+    padding-right: 20%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form {
+    margin-left: 35%;
+    font-size: 20px;
+}
+
+h1{
+    margin-left: 35%;
+}
+#bounding {
+    background-color: cornflowerblue;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 4%;
+    margin-bottom: 6%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
 
 }
